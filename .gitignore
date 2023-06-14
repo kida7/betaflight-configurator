@@ -15,6 +15,8 @@ release/
 testresults/
 .eslintcache
 cordova/bundle.keystore
+translation_temp
+temp2
 
 # OSX
 .DS_store
