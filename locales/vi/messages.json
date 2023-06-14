@@ -92,6 +92,9 @@
   "expertModeDescription": {
     "message": "Bật các tùy chọn Chế độ Chuyên gia"
   },
+  "permanentExpertMode": {
+    "message": "Kích hoạt Chế độ Chuyên gia vĩnh viễn"
+  },
   "warningSettings": {
     "message": "Hiển thị cảnh báo"
   },
@@ -108,10 +111,6 @@
   "showAllSerialDevices": {
     "message": "Hiển thị tất cả các thiết bị nối tiếp (cho các nhà sản xuất hoặc phát triển)",
     "description": "Không lọc các thiết bị nối tiếp bằng cách sử dụng giá trị VID/PID (cho các nhà sản xuất hoặc phát triển)"
-  },
-  "useMdnsBrowser": {
-    "message": "Sử dụng mDNS Browser để tìm thiết bị trên mạng (thử nghiệm)",
-    "description": "Kích hoạt tính năng tìm kiếm thiết bị qua mDNS Browser trong PortHandler (thử nghiệm)"
   },
   "showVirtualMode": {
     "message": "Kích hoạt chế độ kết nối ảo",
@@ -147,6 +146,10 @@
   },
   "language_en": {
     "message": "English",
+    "description": "Don't translate!!!"
+  },
+  "language_vi": {
+    "message": "Tiếng Việt",
     "description": "Don't translate!!!"
   },
   "language_es": {
@@ -542,17 +545,11 @@
   "buildServerSupportRequestSubmission": {
     "message": "<br>*** Dữ liệu hỗ trợ đã được gửi *** <br>Id: $1<br><br><br># sao chép ID và cung cấp cho nhóm Betaflight."
   },
-  "buildKey": {
-    "message": "Khóa xây dựng: <strong>$1</strong>"
-  },
   "supportWarningDialogTitle": {
     "message": "Xác nhận gửi dữ liệu"
   },
   "supportWarningDialogText": {
     "message": "Vui lòng xác nhận gửi dữ liệu cho nhóm Betaflight.<br><br>Quá trình này sẽ thực thi một số lệnh và gửi đầu ra đến máy chủ build.<br><br>Sau đó, bạn sẽ được cung cấp một mã định danh duy nhất cho việc gửi dữ liệu của bạn.<br><br>Vui lòng đảm bảo cung cấp mã định danh duy nhất này cho nhóm Betaflight khi sử dụng Discord hoặc mở các vấn đề trên Github."
-  },
-  "supportWarningDialogInputPlaceHolder": {
-    "message": "Mô tả vấn đề"
   },
   "releaseCheckLoaded": {
     "message": "Thông tin phiên bản $1 được tải từ GitHub."
@@ -808,16 +805,6 @@
   "initialSetupButtonResetZaxisValue": {
     "message": "Đặt lại trục Z, độ lệch: $1 độ"
   },
-  "initialSetupHeading": {
-    "message": "Phương hướng:",
-    "description": "Phương hướng hiển thị trên tab Thiết lập"
-  },
-  "initialSetupPitch": {
-    "message": "Góc nghiêng:"
-  },
-  "initialSetupRoll": {
-    "message": "Góc lăn:"
-  },
   "initialSetupMixerHead": {
     "message": "Loại Mixer"
   },
@@ -851,15 +838,17 @@
   "initialSetupAccelTrimsHead": {
     "message": "Cân chỉnh gia tốc kế"
   },
+  "initialSetupPitch": {
+    "message": "Góc nghiêng:"
+  },
+  "initialSetupRoll": {
+    "message": "Góc lăn:"
+  },
   "initialSetupMagHead": {
     "message": "Cảm biến từ"
   },
   "initialSetupInfoHead": {
     "message": "Thông tin hệ thống"
-  },
-  "initialSetupInfoHeadHelp": {
-    "message": "Hiển thị các cờ FC để tắt, thông tin pin, mức RSSI và phần cứng cảm biến",
-    "description": "Thông báo xuất hiện để mô tả phần Thông tin hệ thống"
   },
   "initialSetupBattery": {
     "message": "Điện áp pin:"
@@ -879,14 +868,8 @@
   "initialSetupBatteryAValue": {
     "message": "$1 A"
   },
-  "initialSetupCpuTemp": {
-    "message": "Nhiệt độ CPU:"
-  },
   "initialSetupRSSI": {
     "message": "Mức RSSI:"
-  },
-  "initialSetupSensorHardware": {
-    "message": "Cảm biến:"
   },
   "initialSetupRSSIValue": {
     "message": "$1 %"
@@ -924,13 +907,9 @@
     "message": "Chức năng ngăn cản cất cánh không đúng quy trình đã được kích hoạt",
     "description": "Thông báo hiển thị khi tắt chế độ arm do lỗi RUNAWAY_TAKEOFF"
   },
-  "initialSetupArmingDisableFlagsTooltipCRASH_DETECTED": {
-    "message": "Chức năng phát hiện tai nạn đã được kích hoạt",
-    "description": "Thông báo hiển thị khi tắt chế độ arm do lỗi CRASH_DETECTED"
-  },
-  "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
-    "message": "Thiết bị đang trong quá trình hiệu chuẩn",
-    "description": "Thông báo hiển thị để mô tả cờ vô hiệu hóa khởi động CALIBRATING"
+  "initialSetupArmingDisableFlagsTooltipCRASH": {
+    "message": "Vô hiệu hóa thông qua phát hiện va chạm",
+    "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hóa arming CRASH"
   },
   "initialSetupArmingDisableFlagsTooltipTHROTTLE": {
     "message": "Kênh thay đổi ga quá cao",
@@ -952,9 +931,9 @@
     "message": "Tải hệ thống quá cao để bay an toàn",
     "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hóa arm khi LOAD"
   },
-  "initialSetupArmingDisableFlagsTooltipACC_CALIBRATION": {
-    "message": "Đang tiến hành hiệu chuẩn cảm biến gia tốc",
-    "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hóa arm khi ACC_CALIBRATION"
+  "initialSetupArmingDisableFlagsTooltipCALIBRATING": {
+    "message": "Thiết bị đang trong quá trình hiệu chuẩn",
+    "description": "Thông báo hiển thị để mô tả cờ vô hiệu hóa khởi động CALIBRATING"
   },
   "initialSetupArmingDisableFlagsTooltipCLI": {
     "message": "CLI đang hoạt động",
@@ -992,21 +971,21 @@
     "message": "Bộ lọc dựa trên RPM đã được kích hoạt nhưng một hoặc nhiều ESC không cung cấp dữ liệu telemetery DSHOT hợp lệ. Hãy kiểm tra rằng các ESC có thể và đã cài đặt firmware yêu cầu để hỗ trợ telemetery DSHOT song hành.",
     "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hóa RPMFILTER khi khởi động"
   },
-  "initialSetupArmingDisableFlagsTooltipREBOOT_REQUIRED": {
+  "initialSetupArmingDisableFlagsTooltipREBOOT_REQD": {
     "message": "Một thay đổi cấu hình yêu cầu khởi động lại",
-    "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hóa REBOOT_REQD khi khởi động"
+    "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hoá ARM_REBOOT_REQD"
   },
-  "initialSetupArmingDisableFlagsTooltipDSHOT_BITBANG": {
-    "message": "Bitbanged DSHOT không hoạt động đúng cách và không thể điều khiển động cơ. Có thể do xung đồng hồ timer xung đột với các tính năng khác được kích hoạt trên bộ điều khiển bay.",
-    "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hóa DSHOT_BBANG khi khởi động"
+  "initialSetupArmingDisableFlagsTooltipDSHOT_BBANG": {
+    "message": "Bitbanged DSHOT không hoạt động đúng và các động cơ không thể được điều khiển. Có thể do xung đồng hồ xung đột với các tính năng khác được bật trên bộ điều khiển bay.",
+    "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hoá ARM_DSHOT_BBANG"
   },
-  "initialSetupArmingDisableFlagsTooltipNO_ACC_CALIBRATION": {
+  "initialSetupArmingDisableFlagsTooltipNO_ACC_CAL": {
     "message": "Cảm biến gia tốc chưa được hiệu chuẩn và các tính năng được kích hoạt phụ thuộc vào nó. Hiệu chuẩn cảm biến gia tốc.",
-    "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hóa NO_ACC_CAL khi khởi động"
+    "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hoá ARM_NO_ACC_CAL"
   },
-  "initialSetupArmingDisableFlagsTooltipMOTOR_PROTOCOL": {
-    "message": "Không có giao thức đầu ra động cơ được chọn",
-    "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hóa MOTOR_PROTO khi khởi động"
+  "initialSetupArmingDisableFlagsTooltipMOTOR_PROTO": {
+    "message": "Chưa có giao thức đầu ra động cơ được chọn",
+    "description": "Thông báo xuất hiện để mô tả cờ vô hiệu hoá ARM_MOTOR_PROTO"
   },
   "initialSetupArmingDisableFlagsTooltipARM_SWITCH": {
     "message": "Một trong các cờ vô hiệu hóa khác đã được kích hoạt khi khởi động",
@@ -1015,63 +994,8 @@
   "initialSetupGPSHead": {
     "message": "GPS"
   },
-  "initialSetupGPSHeadHelp": {
-    "message": "Hiển thị thông tin GPS nếu được kích hoạt đúng cách trong tab Cổng, tab Cấu hình và tab GPS",
-    "description": "Thông báo mô tả phần GPS"
-  },
-  "initialSetupSonarHead": {
-    "message": "Sonar"
-  },
-  "initialSetupSonarHeadHelp": {
-    "message": "Hiển thị thông tin Sonar nếu được kích hoạt đúng cách trong tab Cấu hình",
-    "description": "Thông báo mô tả phần Sonar"
-  },
-  "initialSetupAltitudeSonar": {
-    "message": "Độ cao"
-  },
   "initialSetupInstrumentsHead": {
     "message": "Công cụ đo"
-  },
-  "initialSetupInstrumentsHeadHelp": {
-    "message": "Hiển thị Hướng, Góc Tang và Góc Lăn trên công cụ đo",
-    "description": "Thông báo mô tả phần Công cụ"
-  },
-  "initialSetupInfoAPIversion": {
-    "message": "MSP API:"
-  },
-  "initialSetupInfoBuild": {
-    "message": "Thông tin Firmware"
-  },
-  "initialSetupInfoBuildHelp": {
-    "message": "Hiển thị thông tin liên quan đến việc xây dựng Firmware. Liên kết Build Config và Bulid Log đến thông tin đám mây được tìm thấy bởi khóa Build",
-    "description": "Thông báo mô tả phần Xây dựng / Firmware"
-  },
-  "initialSetupInfoBuildDate": {
-    "message": "Ngày xây dựng:"
-  },
-  "initialSetupInfoBuildInfo": {
-    "message": "Thông tin xây dựng:"
-  },
-  "initialSetupInfoBuildInfoKey": {
-    "message": "Khóa xây dựng"
-  },
-  "initialSetupInfoBuildInfoConfig": {
-    "message": "Cấu hình"
-  },
-  "initialSetupInfoBuildInfoLog": {
-    "message": "Nhật ký"
-  },
-  "initialSetupInfoBuildOptions": {
-    "message": "Tùy chọn biên dịch:"
-  },
-  "initialSetupInfoBuildOptionsList": {
-    "message": "Các định nghĩa được sử dụng"
-  },
-  "initialSetupInfoBuildOptionsEmpty": {
-    "message": "Biên dịch cục bộ - không sử dụng định nghĩa"
-  },
-  "initialSetupNotOnline": {
-    "message": "Máy chủ không khả dụng"
   },
   "initialSetupButtonSave": {
     "message": "Lưu"
@@ -1136,20 +1060,11 @@
   "featureSONAR": {
     "message": "Cảm biến sóng siêu âm Sonar"
   },
-  "featureSONARTip": {
-    "message": "Kích hoạt cảm biến đo khoảng cách đến mặt đất trong đơn vị cm"
-  },
   "featureTELEMETRY": {
     "message": "Đầu ra Telemetry"
   },
-  "featureTELEMETRYTip": {
-    "message": "Kích hoạt đầu ra telemetri để gửi đến máy bay điều khiển từ xa"
-  },
   "feature3D": {
     "message": "Chế độ 3D (dành cho ESC có khả năng xoay ngược)"
-  },
-  "feature3DTip": {
-    "message": "Kích hoạt chế độ 3D cho ESC có khả năng xoay ngược, cấu hình tại tab Động cơ"
   },
   "featureRX_PARALLEL_PWM": {
     "message": "PWM (một dây cho một kênh)"
@@ -1163,9 +1078,6 @@
   "featureLED_STRIP": {
     "message": "Hỗ trợ dải đèn LED RGB đa màu sắc"
   },
-  "featureLED_STRIPTip": {
-    "message": "Kích hoạt hỗ trợ dải đèn LED RGB đa màu sắc, cấu hình tại tab LED Strip"
-  },
   "featureDISPLAY": {
     "message": "Hiển thị màn hình OLED"
   },
@@ -1174,9 +1086,6 @@
   },
   "featureOSD": {
     "message": "Hiển thị trên màn hình OSD"
-  },
-  "featureOSDTip": {
-    "message": "Kích hoạt OSD, cấu hình tại tab OSD"
   },
   "featureCHANNEL_FORWARDING": {
     "message": "Chuyển tiếp các kênh phụ đến các đầu ra servo"
@@ -1526,6 +1435,9 @@
   "configurationGPSHomeOnceHelp": {
     "message": "Khi được kích hoạt, chỉ có cánh tay đầu tiên sau khi kết nối pin sẽ được sử dụng làm điểm bắt đầu. Nếu không được kích hoạt, mỗi lần điều khiển bay cánh quạt được kích hoạt, điểm bắt đầu sẽ được cập nhật.",
     "description": "Trợ giúp cho tùy chọn thiết lập điểm nhà với lần cánh đầu tiên, không với mỗi lần cánh trong Cấu hình GPS"
+  },
+  "configurationGPSHelp": {
+    "message": "<strong>Lưu ý:</strong> Hãy nhớ cấu hình một Cổng Serial (qua tab Cổng) khi sử dụng tính năng GPS."
   },
   "configurationSerialRX": {
     "message": "Nhà cung cấp Bộ thu sóng Serial"
@@ -2258,6 +2170,9 @@
   "auxiliaryButtonSave": {
     "message": "Lưu"
   },
+  "auxiliaryEepromSaved": {
+    "message": "EEPROM <span class=\"message-positive\">đã được lưu</span>"
+  },
   "auxiliaryAutoChannelSelect": {
     "message": "TỰ ĐỘNG"
   },
@@ -2266,146 +2181,6 @@
   },
   "auxiliaryModeLogicAND": {
     "message": "VÀ"
-  },
-  "auxiliaryHelpMode_ARM": {
-    "message": "Kích hoạt động cơ và ổn định bay",
-    "description": "Văn bản trợ giúp cho chế độ KÍCH HOẠT"
-  },
-  "auxiliaryHelpMode_ANGLE": {
-    "message": "Trong chế độ tự động cân bằng này, các kênh roll và pitch điều khiển góc giữa trục tương ứng và thẳng đứng, đạt được chuyến bay cân bằng chỉ bằng cách để nghỉ trung tâm của sticks",
-    "description": "Văn bản trợ giúp cho chế độ GÓC"
-  },
-  "auxiliaryHelpMode_HORIZON": {
-    "message": "Chế độ lai này hoạt động chính xác như chế độ GÓC với các sticks roll và pitch ở trung tâm (điều này cho phép chuyến bay tự động cân bằng), sau đó từ từ hoạt động giống như chế độ TỈ LỆ mặc định khi sticks được di chuyển khỏi vị trí trung tâm",
-    "description": "Văn bản hỗ trợ cho chế độ HORIZON"
-  },
-  "auxiliaryHelpMode_MAG": {
-    "message": "Khóa phương hướng theo từ trường nam châm",
-    "description": "Văn bản hỗ trợ cho chế độ MAG"
-  },
-  "auxiliaryHelpMode_HEADFREE": {
-    "message": "Trong chế độ này, \"đầu\" của đa trục luôn chỉ về cùng một phương hướng như khi tính năng được kích hoạt. Điều này có nghĩa là khi đa trục xoay quanh trục Z (yaw), điều khiển luôn phản ứng theo cùng hướng \"đầu\" đó.<br> Với chế độ này, việc điều khiển đa trục dễ hơn, ngay cả khi bạn đang nhìn thấy đầu thật của nó, vì điều khiển luôn phản ứng theo cùng một hướng. Đây là chế độ thân thiện với người dùng mới của đa trục và có thể ngăn ngừa mất kiểm soát khi bạn không biết hướng \"đầu\"",
-    "description": "Văn bản hỗ trợ cho chế độ HEADFREE"
-  },
-  "auxiliaryHelpMode_PASSTHRU": {
-    "message": "Chuyển giao roll, yaw và pitch từ rx trực tiếp đến servo trong trộn máy bay",
-    "description": "Văn bản hỗ trợ cho chế độ PASSTHRU"
-  },
-  "auxiliaryHelpMode_FAILSAFE": {
-    "message": "Nhập tình trạng thất bại an toàn giai đoạn 2 thủ công",
-    "description": "Văn bản hỗ trợ cho chế độ FAILSAFE"
-  },
-  "auxiliaryHelpMode_GPSRESCUE": {
-    "message": "Kích hoạt 'Cứu hộ GPS' để đưa thiết bị trở về vị trí nơi nó được cài đặt lần cuối",
-    "description": "Văn bản trợ giúp cho chế độ GPS RESCUE"
-  },
-  "auxiliaryHelpMode_HEADADJ": {
-    "message": "Điều chỉnh phương hướng - Thiết lập một gốc yaw mới cho chế độ HEADFREE",
-    "description": "Văn bản trợ giúp cho chế độ HEAD ADJ"
-  },
-  "auxiliaryHelpMode_BEEPER": {
-    "message": "Kích hoạt chế độ bíp - hữu ích để định vị máy bay đã rơi",
-    "description": "Văn bản trợ giúp cho chế độ BEEPER"
-  },
-  "auxiliaryHelpMode_LEDLOW": {
-    "message": "Tắt đầu ra LED_STRIP",
-    "description": "Văn bản trợ giúp cho chế độ LEDLOW"
-  },
-  "auxiliaryHelpMode_OSDDISABLE": {
-    "message": "Bật/Tắt hiển thị On-Screen-Display",
-    "description": "Văn bản trợ giúp cho chế độ OSD"
-  },
-  "auxiliaryHelpMode_TELEMETRY": {
-    "message": "Kích hoạt chế độ telemetri thông qua công tắc",
-    "description": "Văn bản trợ giúp cho chế độ TELEMETRY"
-  },
-  "auxiliaryHelpMode_BLACKBOX": {
-    "message": "Bật ghi nhật ký BlackBox",
-    "description": "Văn bản trợ giúp cho chế độ BLACKBOX"
-  },
-  "auxiliaryHelpMode_BLACKBOXERASE": {
-    "message": "Xóa nhật ký BlackBox",
-    "description": "Văn bản trợ giúp cho chế độ BLACKBOX ERASE"
-  },
-  "auxiliaryHelpMode_AIRMODE": {
-    "message": "Trong mixer / mode chuẩn, khi roll, pitch và yaw được tính toán và bão hòa một động cơ, tất cả các động cơ sẽ bị giảm cùng nhau. Khi một động cơ xuống dưới mức tối thiểu nó sẽ bị cắt bỏ. Nếu bạn để công tắc ga ở trên mức tối thiểu và cố gắng thực hiện một cuộn nhanh - vì hai động cơ không thể đi xuống thêm nữa, bạn thực ra chỉ có 1/2 sức mạnh (1/2 PID gain). Nếu đầu vào của bạn yêu cầu nhiều hơn 100% khác biệt giữa động cơ cao và thấp, các động cơ thấp sẽ bị cắt xén, phá vỡ đối xứng của cân bằng động cơ bằng cách giảm mức tăng không đồng đều",
-    "description": "Văn bản trợ giúp cho chế độ AIRMODE"
-  },
-  "auxiliaryHelpMode_FPVANGLEMIX": {
-    "message": "Áp dụng xoay yaw liên quan đến một camera FPV được gắn trên một góc đặt sẵn",
-    "description": "Văn bản trợ giúp cho chế độ FPV ANGLE MIX"
-  },
-  "auxiliaryHelpMode_CAMERACONTROL1": {
-    "message": "Sử dụng để chuyển đổi CAMERA CONTROL 1 tùy chỉnh. Kiểm tra trong hướng dẫn của nhà sản xuất",
-    "description": "Văn bản trợ giúp để tùy chỉnh chế độ CAMERA CONTROL 1"
-  },
-  "auxiliaryHelpMode_CAMERACONTROL2": {
-    "message": "Sử dụng để chuyển đổi CAMERA CONTROL 2 được tùy chỉnh. Kiểm tra trong hướng dẫn của nhà cung cấp",
-    "description": "Văn bản trợ giúp để tùy chỉnh chế độ CAMERA CONTROL 2"
-  },
-  "auxiliaryHelpMode_CAMERACONTROL3": {
-    "message": "Sử dụng để chuyển đổi CAMERA CONTROL 3 được tùy chỉnh. Kiểm tra trong hướng dẫn của nhà cung cấp",
-    "description": "Văn bản trợ giúp để tùy chỉnh chế độ CAMERA CONTROL 3"
-  },
-  "auxiliaryHelpMode_USER1": {
-    "message": "Sử dụng để chuyển đổi USER1 được tùy chỉnh. Kiểm tra trong hướng dẫn của nhà cung cấp",
-    "description": "Văn bản trợ giúp để tùy chỉnh chế độ USER1"
-  },
-  "auxiliaryHelpMode_USER2": {
-    "message": "Sử dụng để chuyển đổi USER2 được tùy chỉnh. Kiểm tra trong hướng dẫn của nhà cung cấp",
-    "description": "Văn bản trợ giúp để tùy chỉnh chế độ USER2"
-  },
-  "auxiliaryHelpMode_USER3": {
-    "message": "Sử dụng để chuyển đổi USER3 được tùy chỉnh. Kiểm tra trong hướng dẫn của nhà cung cấp",
-    "description": "Văn bản trợ giúp cho chế độ USER3 tùy chỉnh"
-  },
-  "auxiliaryHelpMode_USER4": {
-    "message": "Sử dụng để chuyển đổi chế độ USER4 tùy chỉnh. Kiểm tra trong hướng dẫn của nhà cung cấp",
-    "description": "Văn bản trợ giúp cho chế độ USER4 tùy chỉnh"
-  },
-  "auxiliaryHelpMode_FLIPOVERAFTERCRASH": {
-    "message": "Đảo ngược động cơ để lật lại máy bay khi bị lật sau tai nạn (yêu cầu DShot)",
-    "description": "Văn bản trợ giúp cho chế độ FLIP OVER AFTER CRASH"
-  },
-  "auxiliaryHelpMode_PREARM": {
-    "message": "Khi khởi động, đợi cho công tắc này được kích hoạt trước khi thực sự khởi động",
-    "description": "Văn bản trợ giúp cho chế độ PREARM"
-  },
-  "auxiliaryHelpMode_GPSBEEPSATELLITECOUNT": {
-    "message": "Sử dụng một số tiếng beep để chỉ ra số vệ tinh GPS được tìm thấy",
-    "description": "Văn bản trợ giúp cho chế độ GPS BEEP SATELLITE COUNT"
-  },
-  "auxiliaryHelpMode_VTXPITMODE": {
-    "message": "Chuyển đổi VTX sang chế độ pit (công suất phát thấp, nếu được hỗ trợ)",
-    "description": "Chế độ giúp đỡ cho chế độ VTX PIT MODE"
-  },
-  "auxiliaryHelpMode_PARALYZE": {
-    "message": "Vô hiệu hóa tạm thời thiết bị sau khi rớt đến khi được khởi động lại",
-    "description": "Chế độ giúp đỡ cho chế độ PARALYZE"
-  },
-  "auxiliaryHelpMode_ACROTRAINER": {
-    "message": "Kích hoạt giới hạn góc 'acro trainer' trong chế độ acro",
-    "description": "Chế độ giúp đỡ cho chế độ ACRO TRAINER"
-  },
-  "auxiliaryHelpMode_VTXCONTROLDISABLE": {
-    "message": "Vô hiệu hóa điều khiển cài đặt VTX qua OSD",
-    "description": "Chế độ giúp đỡ cho chế độ VTX CONTROL DISABLE"
-  },
-  "auxiliaryHelpMode_LAUNCHCONTROL": {
-    "message": "Hỗ trợ khởi động cuộc đua",
-    "description": "Chế độ giúp đỡ cho chế độ LAUNCH CONTROL"
-  },
-  "auxiliaryHelpMode_STICKCOMMANDSDISABLE": {
-    "message": "Vô hiệu hóa/bật lệnh đẩy",
-    "description": "Văn bản trợ giúp cho chế độ TẮT LỆNH GÂN TAY"
-  },
-  "auxiliaryHelpMode_BEEPERMUTE": {
-    "message": "Tắt/Mở tiếng beep bao gồm cả cảnh báo, trạng thái và chế độ BEEPER",
-    "description": "Văn bản trợ giúp cho chế độ BEEPERMUTE"
-  },
-  "auxiliaryHelpMode_READY": {
-    "message": "Thêm vào BF4.4, bạn có thể hiển thị từ 'READY' trên OSD bằng một công tắc. Đây là một cải tiến nhỏ cho các tình huống đua xe nơi mà tất cả video của người lái được hiển thị trên một màn hình trung tâm. Người lái có thể bật/tắt công tắc để cho biết họ đã sẵn sàng bay, và từ READY sẽ xuất hiện trên OSD của họ. Người điều khiển đua có thể biết được tất cả các người lái đã sẵn sàng bằng cách xem màn hình trung tâm. Khi khởi động, văn bản READY sẽ biến mất.",
-    "description": "Văn bản trợ giúp cho chế độ READY"
   },
   "adjustmentsHelp": {
     "message": "Cấu hình công tắc điều chỉnh. Xem phần 'điều chỉnh trong chuyến bay' của hướng dẫn để biết thêm chi tiết. Những thay đổi mà các chức năng điều chỉnh làm không được lưu tự động."
@@ -2620,6 +2395,9 @@
   "transponderDataInvalid": {
     "message": "Dữ liệu Transponder không hợp lệ <span class=\"message-negative\">invalid</span>"
   },
+  "transponderEepromSaved": {
+    "message": "EEPROM được <span class=\"message-positive\">lưu trữ</span>"
+  },
   "servosFirmwareUpgradeRequired": {
     "message": "Servos yêu cầu firmware &gt;= 1.10.0. và hỗ trợ target."
   },
@@ -2691,9 +2469,6 @@
   },
   "gpsLon": {
     "message": "Kinh độ:"
-  },
-  "gpsHeading": {
-    "message": "Hướng đi:"
   },
   "gpsSpeed": {
     "message": "Tốc độ:"
@@ -3082,9 +2857,6 @@
   },
   "loggingLogSize": {
     "message": "Kích Thước Nhật Ký:"
-  },
-  "loggingLogName": {
-    "message": "Tên Nhật Ký:"
   },
   "loggingButtonLogFile": {
     "message": "Chọn Tệp Nhật Ký"
@@ -3556,6 +3328,9 @@
     "message": "Xóa TẤT CẢ",
     "description": "Trong LED STRIP, xóa tất cả các led"
   },
+  "ledStripEepromSaved": {
+    "message": "EEPROM <span class=\"message-positive\">đã được lưu</span>"
+  },
   "ledStripVtxOverlay": {
     "message": "VTX (sử dụng tần số vtx để gán màu)"
   },
@@ -3707,16 +3482,17 @@
     "message": "Các đèn LED không có số thứ tự kết nối sẽ không được lưu lại.",
     "description": "Tin nhắn trong chế độ kết nối dây cho đèn Led"
   },
-  "ledStripLarsonOverlay": {
-    "message": "Larson scanner",
-    "description": "Nhãn công tắc hiệu ứng Larson trên tab Đèn LED"
+  "ledStripVtxFunction": {
+    "message": "Quét Larson"
+  },
+  "ledStripBlinkTitle": {
+    "message": "Nhấp nháy"
   },
   "ledStripBlinkAlwaysOverlay": {
     "message": "Nhấp nháy luôn luôn"
   },
-  "ledStripRainbowOverlay": {
-    "message": "Cầu vồng",
-    "description": "Nhãn công tắc hiệu ứng cầu vồng trên tab Đèn LED"
+  "ledStripBlinkLandingOverlay": {
+    "message": "Nhấp nháy khi hạ cánh"
   },
   "ledStripOverlayTitle": {
     "message": "Phủ bóng"
@@ -5171,28 +4947,28 @@
     "message": "Điện áp VTX được hiển thị trên kính"
   },
   "osdTextElementSysBitrate": {
-    "message": "Tốc độ dữ liệu VTX",
-    "description": "Một trong các yếu tố hệ thống của OSD"
+    "message": "Tốc độ bit VTX",
+    "description": "Một trong các yếu tố hệ thống trên OSD"
   },
   "osdDescElementSysBitrate": {
-    "message": "Tốc độ dữ liệu video được phát ra bởi kính chống nắng"
+    "message": "Tốc độ bit video được hiển thị bởi kính FPV"
   },
   "osdTextElementSysDelay": {
     "message": "Độ trễ VTX",
-    "description": "Một trong các yếu tố hệ thống của OSD"
+    "description": "Một trong các yếu tố hệ thống trên OSD"
   },
   "osdDescElementSysDelay": {
-    "message": "Độ trễ video được phát ra bởi kính chống nắng"
+    "message": "Độ trễ video được hiển thị bởi kính FPV"
   },
   "osdTextElementSysDistance": {
     "message": "Khoảng cách VTX",
-    "description": "Một trong các yếu tố hệ thống của OSD"
+    "description": "Một trong các yếu tố hệ thống trên OSD"
   },
   "osdDescElementSysDistance": {
-    "message": "Khoảng cách truyền video được phát ra bởi kính chống nắng"
+    "message": "Khoảng cách truyền video được hiển thị bởi kính FPV"
   },
   "osdTextElementSysLQ": {
-    "message": "Chất lượng liên kết của kính chống nắng",
+    "message": "Chất lượng liên kết kính",
     "description": "Một trong các phần tử hệ thống của OSD"
   },
   "osdDescElementSysLQ": {
@@ -6237,14 +6013,6 @@
     "message": "Bạn có thể chọn tần số cho VTX của bạn tại đây nếu được hỗ trợ",
     "description": "Văn bản trợ giúp cho trường tần số trên tab VTX"
   },
-  "vtxReadyTrue": {
-    "message": "Đúng",
-    "description": "Thiết bị vtx đã sẵn sàng"
-  },
-  "vtxReadyFalse": {
-    "message": "Sai",
-    "description": "Thiết bị vtx không sẵn sàng"
-  },
   "vtxDeviceReady": {
     "message": "Thiết bị đã sẵn sàng",
     "description": "Văn bản của một trong các trường của tab VTX"
@@ -6577,9 +6345,6 @@
   },
   "onboardLoggingRateOfLogging": {
     "message": "Tốc độ ghi nhớ Blackbox"
-  },
-  "onboardLoggingDebugFields": {
-    "message": "Dữ liệu bao gồm"
   },
   "onboardLoggingDebugMode": {
     "message": "Chế độ gỡ lỗi Blackbox"
@@ -7027,6 +6792,5 @@
   },
   "coreBuildModeDescription": {
     "message": "Tùy chọn này xây dựng firmware chứa các trình điều khiển phần cứng (và một số tính năng giới hạn). Nó có sẵn để hỗ trợ trong việc phát hiện phần cứng trên bộ điều khiển bay, và được cung cấp cho mục đích tiện lợi đó. Không phải tất cả các tính năng sẽ có sẵn (chỉ phần cứng) khi sử dụng tùy chọn này."
-  },
-  "showDevToolsOnStartup": {}
+  }
 }
