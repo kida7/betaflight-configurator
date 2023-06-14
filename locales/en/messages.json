@@ -148,6 +148,10 @@
         "message": "English",
         "description": "Don't translate!!!"
     },
+    "language_vi": {
+        "message": "Tiếng Việt",
+        "description": "Don't translate!!!"
+    },
     "language_es": {
         "message": "Espa\u00f1ol",
         "description": "Don't translate!!!"

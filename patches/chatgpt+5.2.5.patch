@@ -1,0 +1,21 @@
+diff --git a/node_modules/chatgpt/build/index.js b/node_modules/chatgpt/build/index.js
+index a8ff6ed..ac98511 100644
+--- a/node_modules/chatgpt/build/index.js
++++ b/node_modules/chatgpt/build/index.js
+@@ -3,6 +3,7 @@ import Keyv from "keyv";
+ import pTimeout from "p-timeout";
+ import QuickLRU from "quick-lru";
+ import { v4 as uuidv4 } from "uuid";
++import fetch from 'node-fetch'
+ 
+ // src/tokenizer.ts
+ import { getEncoding } from "js-tiktoken";
+@@ -18,8 +19,6 @@ var openai;
+ ((openai2) => {
+ })(openai || (openai = {}));
+ 
+-// src/fetch.ts
+-var fetch = globalThis.fetch;
+ 
+ // src/fetch-sse.ts
+ import { createParser } from "eventsource-parser";
