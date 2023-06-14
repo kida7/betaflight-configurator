@@ -231,28 +231,28 @@
     "description": "Đoạn văn mô tả hình ảnh cảm biến gia tốc trong biểu tượng cảm biến trên đầu trang. Hãy giữ nó ngắn gọn."
   },
   "sensorStatusMag": {
-    "message": "Nam châm"
+    "message": "Cảm biến từ"
   },
   "sensorStatusMagShort": {
-    "message": "Nam",
-    "description": "Văn bản trong hình ảnh biểu tượng cảm biến trên đầu. Hãy giữ nó ngắn gọn."
+    "message": "Từ",
+    "description": "Văn bản của hình ảnh trong biểu tượng cảm biến trên cùng. Vui lòng giữ nó ngắn gọn."
   },
   "sensorStatusBaro": {
-    "message": "Baromet"
+    "message": "Cảm biến áp suất"
   },
   "sensorStatusBaroShort": {
-    "message": "Baro",
-    "description": "Văn bản trong hình ảnh biểu tượng cảm biến trên đầu. Hãy giữ nó ngắn gọn."
+    "message": "Áp suất",
+    "description": "Văn bản của hình ảnh trong biểu tượng cảm biến trên cùng. Vui lòng giữ nó ngắn gọn."
   },
   "sensorStatusGPS": {
-    "message": "GPS"
+    "message": "Cảm biến GPS"
   },
   "sensorStatusGPSShort": {
     "message": "GPS",
-    "description": "Văn bản trong hình ảnh biểu tượng cảm biến trên đầu. Hãy giữ nó ngắn gọn."
+    "description": "Văn bản của hình ảnh trong biểu tượng cảm biến trên cùng. Vui lòng giữ nó ngắn gọn."
   },
   "sensorStatusSonar": {
-    "message": "Công cụ đo khoảng cách / Sonar"
+    "message": "Cảm biến siêu âm / máy đo khoảng cách"
   },
   "sensorStatusSonarShort": {
     "message": "Cảm biến siêu âm",
@@ -316,7 +316,7 @@
     "message": "Điều chỉnh PID"
   },
   "tabReceiver": {
-    "message": "Bộ thu"
+    "message": "Thu sóng"
   },
   "tabModeSelection": {
     "message": "Lựa chọn chế độ"
@@ -325,19 +325,19 @@
     "message": "Servo"
   },
   "tabFailsafe": {
-    "message": "Hỏng máy an toàn"
+    "message": "Failsafe"
   },
   "tabTransponder": {
-    "message": "Máy phát tín hiệu đua"
+    "message": "Bộ phát tín hiệu đua"
   },
   "tabOsd": {
     "message": "OSD"
   },
   "tabVtx": {
-    "message": "Phát video không dây"
+    "message": "Bộ phát video"
   },
   "tabPower": {
-    "message": "Nguồn và pin"
+    "message": "Nguồn & Pin"
   },
   "tabGPS": {
     "message": "GPS"
@@ -821,7 +821,7 @@
     "message": "Failsafe:"
   },
   "initialSetupMinCommand": {
-    "message": "Lệnh tối thiểu:"
+    "message": "MinCommand:"
   },
   "initialSetupBatteryHead": {
     "message": "Pin"
@@ -836,7 +836,7 @@
     "message": "Tỷ lệ điện áp:"
   },
   "initialSetupAccelTrimsHead": {
-    "message": "Cân chỉnh gia tốc kế"
+    "message": "Điều chỉnh gia tốc kế"
   },
   "initialSetupPitch": {
     "message": "Góc nghiêng:"
@@ -845,7 +845,7 @@
     "message": "Góc lăn:"
   },
   "initialSetupMagHead": {
-    "message": "Cảm biến từ"
+    "message": "Nam châm"
   },
   "initialSetupInfoHead": {
     "message": "Thông tin hệ thống"
@@ -1124,28 +1124,28 @@
     "message": "Mô tả"
   },
   "configurationMixer": {
-    "message": "Pha trộn"
+    "message": "Trộn"
   },
   "configurationFeatures": {
     "message": "Các tính năng khác"
   },
   "configurationReceiver": {
-    "message": "Bộ thu"
+    "message": "Bộ nhận"
   },
   "configurationReceiverMode": {
-    "message": "Chế độ bộ thu"
+    "message": "Chế độ bộ nhận"
   },
   "configurationTelemetry": {
-    "message": "Telemetry (tín hiệu)"
+    "message": "Telemetry"
   },
   "configurationTelemetryHelp": {
-    "message": "Tín hiệu đầu ra từ bộ thu"
+    "message": "Xuất dữ liệu Telemetry từ bộ nhận"
   },
   "configurationRSSI": {
-    "message": "RSSI (sức mạnh tín hiệu)"
+    "message": "RSSI (Độ mạnh tín hiệu)"
   },
   "configurationRSSIHelp": {
-    "message": "RSSI là đo lường sức mạnh tín hiệu và rất hữu ích để biết khi máy bay của bạn đang đi ra khỏi tầm hoặc nếu nó gặp phải nhiễu RF."
+    "message": "RSSI là đo lường độ mạnh của tín hiệu và rất hữu ích để biết khi máy bay của bạn ra khỏi phạm vi hoặc khi gặp nhiễu RF."
   },
   "configurationEscFeatures": {
     "message": "Các tính năng ESC/Motor"
@@ -1181,7 +1181,7 @@
     "message": "GYRO/ACCEL"
   },
   "configurationSensorGyroToUseNotFound": {
-    "message": "Cảnh báo: Không tìm thấy Gyro/Acc"
+    "message": "Cảnh báo: Không tìm thấy Gyro / Acc"
   },
   "configurationSensorGyroToUseFirst": {
     "message": "Đầu tiên"
@@ -1199,70 +1199,70 @@
     "message": "GYRO thứ hai"
   },
   "configurationSensorAlignmentAcc": {
-    "message": "Định vị ACCEL"
+    "message": "Sắp xếp ACCEL"
   },
   "configurationSensorAlignmentMag": {
-    "message": "Định vị MAG"
+    "message": "Sắp xếp MAG"
   },
   "configurationSensorAlignmentDefaultOption": {
     "message": "Mặc định"
   },
   "configurationAccelTrims": {
-    "message": "Trim gia tốc"
+    "message": "Điều chỉnh gia tốc kế"
   },
   "configurationAccelTrimRoll": {
-    "message": "Điều chỉnh lăn gia tốc kế"
+    "message": "Điều chỉnh Roll gia tốc kế"
   },
   "configurationAccelTrimPitch": {
-    "message": "Điều chỉnh tang gia tốc kế"
+    "message": "Điều chỉnh Pitch gia tốc kế"
   },
   "configurationArming": {
     "message": "Kích hoạt"
   },
   "configurationArmingHelp": {
-    "message": "Một số tùy chọn Kích hoạt có thể yêu cầu bật gia tốc kế"
+    "message": "Một số tùy chọn kích hoạt có thể yêu cầu phải bật gia tốc kế."
   },
   "configurationReverseMotorSwitch": {
-    "message": "Đảo chiều quay động cơ"
+    "message": "Hướng xoay động cơ đảo ngược"
   },
   "configurationReverseMotorSwitchHelp": {
-    "message": "Tùy chọn này cấu hình trộn để mong đợi hướng quay của động cơ bị đảo ngược và propeller được lắp đúng cách. <strong>Cảnh báo:</strong> Tùy chọn này không đảo ngược hướng quay của động cơ. Sử dụng công cụ cấu hình cho ESCs hoặc đảo thứ tự dây điện ESC - động cơ để đảo ngược. Hãy đảm bảo kiểm tra vận tốc quay của động cơ theo hướng như trong sơ đồ trước khi cố gắng kích hoạt."
+    "message": "Tùy chọn này cấu hình trộn để dự kiến hướng xoay của động cơ bị đảo ngược và các cánh quạt được lắp một cách phù hợp. <strong>Cảnh báo:</strong> Tùy chọn này KHÔNG đảo ngược hướng xoay của động cơ. Sử dụng công cụ cấu hình cho ESCs hoặc đảo thứ tự cáp kết nối ESC - động cơ để đảo ngược hướng xoay của động cơ. Hãy đảm bảo kiểm tra xem động cơ của bạn có quay theo hướng được hiển thị trong biểu đồ trước khi cố gắng kích hoạt."
   },
   "configurationAutoDisarmDelay": {
-    "message": "Cắt động cơ sau thời gian đặt trước [giây] (Yêu cầu tính năng MOTOR_STOP)"
+    "message": "Ngừng hoạt động động cơ sau độ trì hoãn cài đặt [giây] (Yêu cầu tính năng MOTOR_STOP)"
   },
   "configurationDisarmKillSwitch": {
-    "message": "Cắt động cơ bất kể mức giá trị ga (Khi ARM được cấu hình trong tab Modes qua kênh AUX)"
+    "message": "Ngừng hoạt động động cơ bất kể giá trị ga (Khi ARM được cấu hình trong tab Chế độ thông qua kênh PHỤ)"
   },
   "configurationDisarmKillSwitchHelp": {
-    "message": "Kích hoạt luôn bị vô hiệu hóa khi ga không ở mức thấp. Hãy cẩn thận với tùy chọn này, bạn có thể vô tình tắt động cơ khi bay với công tắc này được bật."
+    "message": "Kích hoạt luôn bị vô hiệu hóa khi ga không thấp. Hãy cẩn thận vì bạn có thể ngừng hoạt động động cơ một cách tình cờ với một công tắc trong khi bay với tùy chọn này được kích hoạt."
   },
   "configurationDigitalIdlePercent": {
-    "message": "Chế độ chờ động cơ ( %, tĩnh)"
+    "message": "Chế độ rảnh tĩnh của động cơ (%)"
   },
   "configurationDigitalIdlePercentDisabled": {
-    "message": "Chế độ Dynamic Idle đã được kích hoạt ở {{dynamicIdle}} vòng/phút. Xem tab PID tuning để điều chỉnh."
+    "message": "Chế độ rãnh động đang hoạt động ở {{dynamicIdle}} vòng/phút. Xem tab điều chỉnh PID."
   },
   "configurationDigitalIdlePercentHelp": {
-    "message": "Giá trị 'Motor Idle (static)' là phần trăm tối đa của đầu ra ga được gửi đến ESCs khi ga ở vị trí nhỏ nhất và thiết bị đã được kích hoạt. <br><br>Tăng giá trị để có thêm tốc độ chờ và tránh hiện tượng mất đồng bộ. Nếu giá trị quá cao, thiết bị sẽ cảm thấy bơi nổi. Nếu giá trị quá thấp, động cơ có thể mất đồng bộ hoặc khởi động chậm.<br><br>Trong phiên bản 4.3, khi Dynamic Idle đã được kích hoạt, giá trị idle tĩnh sẽ không được đưa vào xét vì giá trị idle sẽ được điều chỉnh liên tục để duy trì số vòng/phút tối thiểu được cấu hình trên động cơ chậm nhất."
+    "message": "Giá trị 'Motor Idle (static)' là phần trăm của giới hạn tối đa ga phía dưới được gửi đến ESCs khi cần cất cánh. <br><br>Tăng nó để có thêm tốc độ rãnh và tránh hiện tượng mất đồng bộ. Với giá trị quá cao, máy bay sẽ không có độ ổn định. Tương tự, giá trị quá thấp có thể gây ra hiện tượng mất đồng bộ hoặc khởi động chậm cho động cơ.<br><br>Trong phiên bản 4.3, khi chế độ Rãnh Động hoạt động, giá trị rãnh tĩnh sẽ bị bỏ qua, vì giá trị rãnh sẽ được điều chỉnh liên tục để duy trì số vòng/phút tối thiểu được cấu hình trên động cơ chạy chậm nhất."
   },
   "configurationMotorPoles": {
     "message": "Số cực động cơ",
     "description": "Một trong các trường của cấu hình ESC/Motor"
   },
   "configurationMotorPolesLong": {
-    "message": "$t(configurationMotorPoles.message) (số nam châm trên cánh động cơ)",
+    "message": "$t(configurationMotorPoles.message) (số nam châm trên chuông động cơ)",
     "description": "Một trong các trường của cấu hình ESC/Motor"
   },
   "configurationMotorPolesHelp": {
-    "message": "Số cực động cơ là số nam châm trên cánh động cơ. KHÔNG tính đến stator nơi dây điện được bọc quanh. Động cơ 5'' thường có 14 nam châm, động cơ 3'' hoặc nhỏ hơn thường có 12 nam châm.",
-    "description": "Chú thích trợ giúp cho trường Số cực động cơ trong cấu hình ESC/Motor"
+    "message": "Số cực là số nam châm trên chuông động cơ. Đừng tính số cực của stator nơi các cuộn dây được đặt. Máy bay 5\" thường có 14 nam châm, máy bay 3\" hoặc nhỏ hơn thường có 12 nam châm.",
+    "description": "Văn bản giúp cho trường Số cực động cơ của cấu hình ESC/Motor"
   },
   "configurationThrottleMinimum": {
-    "message": "Giá trị ga tối thiểu (giá trị ESC thấp nhất khi kích hoạt)"
+    "message": "Giá trị tối thiểu của ga (giá trị nhỏ nhất của ESC khi cất cánh)"
   },
   "configurationThrottleMinimumHelp": {
-    "message": "Đây là giá trị 'idle' được gửi đến ESC khi thiết bị đã được kích hoạt và thanh ga ở vị trí tối thiểu. Tăng giá trị để có thêm tốc độ chờ. Cũng tăng giá trị khi gặp hiện tượng mất đồng bộ!"
+    "message": "Đây là giá trị 'rãnh' được gửi đến ESC khi máy bay được cất cánh và thanh ga ở vị trí thấp nhất. Tăng giá trị để có thêm tốc độ rãnh. Cũng tăng giá trị trong trường hợp mất đồng bộ!"
   },
   "configurationThrottleMaximum": {
     "message": "Throttle tối đa (giá trị cao nhất của ESC khi được kích hoạt)"
@@ -1557,34 +1557,34 @@
     "message": "Hồ sơ $1"
   },
   "pidTuningRateProfileOption": {
-    "message": "Hồ sơ tốc độ $1"
+    "message": "Tùy chọn chế độ tốc độ $1"
   },
   "portsFunction_LIDAR_TF": {
     "message": "Benewake LIDAR"
   },
   "pidTuningUpgradeFirmwareToChangePidController": {
-    "message": "<span class=\"message-negative\">Không thể thay đổi bộ điều khiển PID - bạn có thể thay đổi nó qua CLI.</span> Bạn có phiên bản firmware với API là <span class=\"message-negative\">$1</span>, nhưng chức năng này yêu cầu <span class=\"message-positive\">$2</span>."
+    "message": "<span class=\"message-negative\">Thay đổi PID controller đã bị vô hiệu hóa - bạn có thể thay đổi nó thông qua CLI.</span> Bạn có firmware với API phiên bản <span class=\"message-negative\">$1</ span>, nhưng chức năng này yêu cầu <span class=\"message-positive\">$2</span>."
   },
   "pidTuningSubTabPid": {
-    "message": "Cài đặt hồ sơ PID"
+    "message": "Cài đặt hồi đáp PID"
   },
   "pidTuningSubTabRates": {
-    "message": "Cài đặt hồ sơ tốc độ"
+    "message": "Cài đặt chế độ tốc độ"
   },
   "pidTuningSubTabFilter": {
     "message": "Cài đặt bộ lọc"
   },
   "pidProfileName": {
-    "message": "Tên hồ sơ PID"
+    "message": "Tên hồi đáp PID"
   },
   "pidProfileNameHelp": {
-    "message": "Tên hồ sơ PID mô tả điều kiện hồ sơ đã được điều chỉnh cho: pin nhẹ/hạng nặng, camera hành động/không camera hành động, độ cao cao hơn, vv."
+    "message": "Tên hồi đáp PID mô tả điều kiện được điều chỉnh cho hồi đáp PID này: pin dòng nhẹ/nặng, máy quay hành động/không có máy quay hành động, độ cao cao hơn, v.v."
   },
   "rateProfileName": {
-    "message": "Tên hồ sơ tốc độ"
+    "message": "Tên chế độ tốc độ"
   },
   "rateProfileNameHelp": {
-    "message": "Tên hồ sơ tốc độ mô tả loại bay mà hồ sơ này dành cho: cine, đua, freestyle, vv."
+    "message": "Tên chế độ tốc độ mô tả loại bay mà chế độ tốc độ này dành cho: cine, đua tốc độ, freestyle, v.v."
   },
   "pidTuningShowAllPids": {
     "message": "Hiển thị tất cả các PIDs"
@@ -1991,34 +1991,34 @@
     "message": "Sao chép giá trị từ profile tốc độ hiện tại sang"
   },
   "dialogCopyProfileTitle": {
-    "message": "Sao chép các giá trị hồ sơ"
+    "message": "Sao chép Giá trị Hồ sơ"
   },
   "dialogCopyProfileNote": {
-    "message": "Tất cả các giá trị trên hồ sơ đích sẽ được xóa và ghi đè"
+    "message": "Tất cả các giá trị trên hồ sơ đích sẽ bị xóa sạch và ghi đè"
   },
   "dialogCopyProfileConfirm": {
     "message": "Sao chép"
   },
   "dialogCopyProfileClose": {
-    "message": "Hủy bỏ"
+    "message": "Hủy"
   },
   "pidTuningResetPidProfile": {
-    "message": "Đặt lại hồ sơ này"
+    "message": "Đặt lại Hồ sơ này"
   },
   "pidTuningPidProfileReset": {
-    "message": "Đã tải các giá trị mặc định cho hồ sơ PID hiện tại."
+    "message": "Tải giá trị mặc định cho hồ sơ PID hiện tại."
   },
   "pidTuningReceivedProfile": {
-    "message": "Bộ điều khiển bay đã đặt hồ sơ: <strong class=\"message-positive\">$1</strong>"
+    "message": "Bộ điều khiển bay đã thiết lập Hồ sơ: <strong class=\"message-positive\">$1</strong>"
   },
   "pidTuningReceivedRateProfile": {
-    "message": "Bộ điều khiển bay đã đặt hồ sơ tốc độ: <strong class=\"message-positive\">$1</strong>"
+    "message": "Bộ điều khiển bay đã thiết lập Hồ sơ Tốc độ: <strong class=\"message-positive\">$1</strong>"
   },
   "pidTuningLoadedProfile": {
-    "message": "Đã tải hồ sơ: <strong class=\"message-positive\">$1</strong>"
+    "message": "Đã tải Hồ sơ: <strong class=\"message-positive\">$1</strong>"
   },
   "pidTuningLoadedRateProfile": {
-    "message": "Đã tải hồ sơ tốc độ: <strong class=\"message-positive\">$1</strong>"
+    "message": "Đã tải Hồ sơ Tốc độ: <strong class=\"message-positive\">$1</strong>"
   },
   "pidTuningDataRefreshed": {
     "message": "Dữ liệu PID đã được <strong>cập nhật</strong>"
@@ -4399,28 +4399,28 @@
     "message": "Cảm biến MSP/OSD Slave"
   },
   "powerBatteryMinimum": {
-    "message": "Điện áp tối thiểu mỗi ô"
+    "message": "Điện áp tối thiểu của cell"
   },
   "powerBatteryMaximum": {
-    "message": "Điện áp tối đa mỗi ô"
+    "message": "Điện áp tối đa của cell"
   },
   "powerBatteryWarning": {
-    "message": "Cảnh báo điện áp mỗi ô"
+    "message": "Cảnh báo điện áp cell"
   },
   "powerCalibrationManagerButton": {
-    "message": "Hiệu chỉnh"
+    "message": "Hiệu chuẩn"
   },
   "powerCalibrationManagerTitle": {
-    "message": "Quản lý hiệu chỉnh"
+    "message": "Quản lý hiệu chuẩn"
   },
   "powerCalibrationManagerHelp": {
-    "message": "Để hiệu chỉnh, sử dụng dụng cụ đo điện đa năng để đo điện áp / dòng thực tế trên máy bay của bạn (với pin cắm vào), và nhập giá trị vào bên dưới. Sau đó, với cùng một pin vẫn cắm vào, nhấp vào [Hiệu chỉnh]."
+    "message": "Để hiệu chuẩn, sử dụng máy đo đa năng để đo thực tế điện áp / dòng điện trên phương tiện (khi cắm pin), và nhập giá trị ở dưới. Sau đó, với cùng một pin vẫn cắm vào, nhấp vào [Hiệu Chuẩn]."
   },
   "powerCalibrationManagerNote": {
-    "message": "<strong>Lưu ý:</strong> Trước khi hiệu chỉnh, hãy chắc chắn rằng bộ phận phân áp và nhân áp cho điện áp và độ lệch cho dòng đã được thiết lập đúng.<br>Để trống các giá trị sẽ không áp dụng hiệu chỉnh.</br><strong>Nhớ tháo cánh quạt trước khi cắm pin vào!</strong>"
+    "message": "<strong>Lưu ý:</strong> Trước khi hiệu chuẩn, hãy đảm bảo rằng số chia và số nhân cho điện áp và offset cho dòng điện được cài đặt đúng.<br>Bỏ giá trị 0 sẽ không áp dụng hiệu chuẩn.</br><strong>Hãy nhớ gỡ bỏ cánh quạt trước khi cắm pin!</strong>"
   },
   "powerCalibrationManagerWarning": {
-    "message": "<span class=\"message-negative\">Cảnh báo:</span> Pin <span class=\"message-negative\">không được cắm vào</span> hoặc các nguồn đo điện áp và dòng không được thiết lập đúng. <span class=\"message-negative\">Hãy chắc chắn rằng điện áp và/hoặc dòng đang đọc giá trị lớn hơn 0.</span> Nếu không, bạn sẽ không thể hiệu chỉnh bằng công cụ này."
+    "message": "<span class=\"message-negative\">Cảnh báo:</span> Pin <span class=\"message-negative\">không được cắm vào</span> hoặc nguồn đo điện áp và dòng điện của các cảm biến <span class=\"message-negative\">không được cài đặt đúng.</span> Hãy đảm bảo rằng điện áp và/hoặc dòng điện đang đọc giá trị lớn hơn 0. Nếu không, bạn sẽ không thể hiệu chuẩn bằng công cụ này."
   },
   "powerCalibrationManagerSourceNote": {
     "message": "<span class=\"message-negative\">Cảnh báo:</span> Nguồn đo điện áp và/hoặc dòng điện <strong>đã bị thay đổi nhưng chưa được lưu lại.</strong> Vui lòng thiết lập nguồn đo chính xác và lưu trước khi tiến hành hiệu chuẩn."
@@ -6003,15 +6003,15 @@
   },
   "vtxChannelHelp": {
     "message": "Bạn có thể chọn ở đây kênh cho VTX của bạn",
-    "description": "Văn bản trợ giúp cho trường kênh trên tab VTX"
+    "description": "Văn bản giúp cho trường kênh của tab VTX"
   },
   "vtxFrequency": {
     "message": "Tần số",
-    "description": "Văn bản của một trong các trường trên tab VTX"
+    "description": "Văn bản mô tả một trong các trường của tab VTX"
   },
   "vtxFrequencyHelp": {
-    "message": "Bạn có thể chọn tần số cho VTX của bạn tại đây nếu được hỗ trợ",
-    "description": "Văn bản trợ giúp cho trường tần số trên tab VTX"
+    "message": "Bạn có thể chọn tần số cho VTX của bạn nếu được hỗ trợ ở đây",
+    "description": "Văn bản giúp cho trường tần số của tab VTX"
   },
   "vtxDeviceReady": {
     "message": "Thiết bị đã sẵn sàng",
@@ -6055,26 +6055,26 @@
   },
   "vtxLowPowerDisarmOption_1": {
     "message": "Bật",
-    "description": "Một trong các tùy chọn cho chế độ Tắt nguồn Low Power của VTX"
+    "description": "Một trong các tùy chọn cho chế độ Tắt nguồn tiết kiệm điện của VTX"
   },
   "vtxLowPowerDisarmOption_2": {
-    "message": "Bật đến lần arm đầu tiên",
-    "description": "Một trong các tùy chọn cho chế độ Tắt nguồn Low Power của VTX"
+    "message": "Bật đến lần cánh tay đầu tiên",
+    "description": "Một trong các tùy chọn cho chế độ Tắt nguồn tiết kiệm điện của VTX"
   },
   "vtxTable": {
     "message": "Bảng VTX",
     "description": "Văn bản tiêu đề của phần tử Bảng VTX trong tab VTX"
   },
   "vtxTablePowerLevels": {
-    "message": "Số cấp nguồn",
+    "message": "Số mức công suất",
     "description": "Văn bản của một trong các trường của phần tử Bảng VTX trong tab VTX"
   },
   "vtxTablePowerLevelsHelp": {
-    "message": "Đây xác định số cấp nguồn được hỗ trợ bởi VTX của bạn",
-    "description": "Trợ giúp cho trường số cấp nguồn của phần tử Bảng VTX trong tab VTX"
+    "message": "Điều này xác định số mức công suất được hỗ trợ bởi VTX của bạn",
+    "description": "Trợ giúp cho trường số mức công suất của phần tử Bảng VTX trong tab VTX"
   },
   "vtxTablePowerLevelsTableHelp": {
-    "message": "Bảng này đại diện cho các giá trị khác nhau của công suất có thể sử dụng cho VTX. Chúng được chia thành hai loại: <br><b>- $t(vtxTablePowerLevelsValue.message):</b> mỗi cấp nguồn yêu cầu một giá trị được xác định bởi nhà sản xuất phần cứng. Hãy hỏi nhà sản xuất của bạn về giá trị chính xác hoặc tìm hiểu trên Wiki Betaflight về các bảng VTX để lấy mẫu. <br><b>- $t(vtxTablePowerLevelsLabel.message):</b> bạn có thể đặt nhãn ở đây cho mỗi giá trị cấp nguồn. Nó có thể là các số (25, 200, 600, 1.2), các chữ cái (TẮT, TỐI THIỂU, TỐI ĐA) hoặc sự kết hợp của chúng. <br/><br/>Bạn chỉ nên cấu hình <b>chỉ</b> các cấp nguồn hợp pháp tại quốc gia của bạn.",
+    "message": "Bảng này đại diện cho các giá trị công suất khác nhau có thể được sử dụng cho VTX. Chúng được chia thành hai loại: <br><b>- $t(vtxTablePowerLevelsValue.message):</b> từng mức công suất yêu cầu một giá trị được xác định bởi nhà sản xuất phần cứng. Hãy hỏi nhà sản xuất của bạn về giá trị chính xác hoặc tra cứu Betaflight wiki của Bảng VTX để lấy một số mẫu. <br><b>- $t(vtxTablePowerLevelsLabel.message):</b> bạn có thể điền vào đây nhãn bạn muốn cho mỗi giá trị công suất. Nó có thể là số (25, 200, 600, 1.2), chữ cái (TẮT, TỐI THIỂU, TỐI ĐA) hoặc một sự kết hợp của chúng. <br /><br />Bạn chỉ nên cấu hình các mức công suất hợp pháp tại quốc gia của bạn.",
     "description": "Trợ giúp cho bảng cấp độ công suất (giá trị-nhãn) xuất hiện trong tab VTX"
   },
   "vtxTablePowerLevelsValue": {
@@ -6317,7 +6317,7 @@
     "message": "<b>Bộ lọc Soft Gyro:</b> Bộ lọc thấp cho gyro. Sử dụng giá trị thấp hơn để lọc nhiều hơn.<br><b>Bộ lọc D Term:</b> Bộ lọc thấp cho Dterm. Có thể ảnh hưởng đến việc điều chỉnh D. Sử dụng giá trị thấp hơn để lọc nhiều hơn. <br><b>Bộ lọc Yaw:</b> Lọc đầu ra yaw. Nó có thể giúp cho các thiết lập với trục yaw ồn ào."
   },
   "pidTuningRatesTip": {
-    "message": "Chơi với tốc độ và xem những ảnh hưởng của chúng đến đường cong điều khiển"
+    "message": "Thử nghiệm với các tỷ lệ và xem những ảnh hưởng đó đến đường cong điều khiển"
   },
   "configurationCamera": {
     "message": "Máy ảnh"
@@ -6329,22 +6329,22 @@
     "message": "Tên phương tiện bay"
   },
   "configurationCraftNameHelp": {
-    "message": "Có thể hiển thị trong các bản ghi, tên tệp sao lưu và OSD.</br>Có thể được thiết lập thông qua biến CLI <b>craft_name</b>."
+    "message": "Có thể hiển thị trong nhật ký, tên tệp sao lưu và OSD.</br>Có thể được đặt qua biến CLI <b>tên_phương_tiện_bay</b>."
   },
   "configurationPilotName": {
     "message": "Tên phi công"
   },
   "configurationPilotNameHelp": {
-    "message": "Có thể hiển thị trong OSD.</br>Có thể được thiết lập thông qua biến CLI <b>pilot_name</b>."
+    "message": "Có thể hiển thị trên OSD.</br>Có thể được đặt qua biến CLI <b>tên_phi_công</b>."
   },
   "configurationFpvCamAngleDegrees": {
-    "message": "Góc Camera FPV [độ]"
+    "message": "Góc máy quay FPV [độ]"
   },
   "onboardLoggingBlackbox": {
-    "message": "Thiết bị ghi nhớ Blackbox"
+    "message": "Thiết bị ghi nhật ký Blackbox"
   },
   "onboardLoggingRateOfLogging": {
-    "message": "Tốc độ ghi nhớ Blackbox"
+    "message": "Tần suất ghi nhật ký Blackbox"
   },
   "onboardLoggingDebugMode": {
     "message": "Chế độ gỡ lỗi Blackbox"
